@@ -11,7 +11,7 @@ function convertToAngle() {
             alert('Single pixel is equal to: ' + Number(degPerPix).toFixed(4) + '\n' 
             + 'Stimulus size in visual angle is equal to: ' + Number(sizeInDeg).toFixed(4));
         } else {
-            alert('Enter non zero values.');
+            alert('Enter a number which is higher than zero.');
         }
     } else {
         alert('Enter all parameters in a box with numbers.');
@@ -32,7 +32,7 @@ function convertToPixel() {
             alert('Single pixel is equal to: ' + Number(degPerPix).toFixed(4) + '\n' 
             + 'Stimulus size in pixels is equal to: ' + Number(sizeInDeg).toFixed(4));
         } else {
-            alert('Enter non zero values.');
+            alert('Enter a number which is higher than zero.');
         }
     } else {
         alert('Enter all parameters in a box with numbers.');
