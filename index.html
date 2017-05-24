@@ -5,8 +5,48 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
     
+        <h1>Visual angle calculator</h1>
+        <p>Visual angle is defined as angle between the straight lines of eye's lenses. It will define the size and lenght of stimulus on screen.</p>
+        <p>This measurement is used to correct (standardize) the size of stimulus which is more relyable to measure it this way than actuall size for example in cm. If you present 100 px stimulus on screen it is 3°, but if you sit far from monitor it could be for example 2°. This is important that visual angle measurment reflects a disatnce from screen.</p>
+
+        <h2>Convert pixels to visual angle</h2>
+        <p>Given a size of stimulus in pixel it converts it into visual angle</p>
+        
+        <div class="buttons-box">
+            <label>Screen height (cm)</label>
+            <input type="text" title="Screen height (cm)">
+            <label>Distance between screen and participant (cm)</label>
+            <input type="text" title="Distance between screen and participant (cm)">
+            <label>Vertical resolution of screen (px)</label>
+            <input type="text" title="Vertical resolution of screen (px)">
+            <label>Size of stimulus (px)</label>
+            <input type="text" title="Size of stimulus (px)"> 
+            <input type="button" value="Convert to visual angle">
+        </div>
+
+        <h2>Convert visual degree to pixels</h2>
+        <p>Given a visual angle it converts it into size in pixels</p>
+        <div class="buttons-box">
+            <label>Screen height (cm)</label>
+            <input type="text" title="Screen height (cm)">
+            <label>Distance between screen and participant (cm)</label>
+            <input type="text" title="Distance between screen and participant (cm)">
+            <label>Vertical resolution of screen (px)</label>
+            <input type="text" title="Vertical resolution of screen (px)">
+            <label>Angle size of stimulus (°)</label>
+            <input type="text" title="Angle size of stimulus (°)"> 
+            <input type="button" value="Convert to pixels">
+        </div>
+
+        <div class="footer">
+            <p>Michael Tesar, 2017</p>
+            <p><a href="mailto:michael.tesar@nudz.cz">michael.tesar@nudz.cz</a></p>
+            <p>Based on <a href="www.osdoc.cogsci.nl">OpenSesame</a> documentation in <a href="www.osdoc.cogsci.nl/3.1/visualangle/"> here</a> by Sebastiaan Mathôt.</p>
+        </div>
+
     </body>
 </html>
