@@ -1,12 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, lightgray, grey);
 }
 
 .buttons-box {
-    width: 25%;
+    width: 30%;
     background: lightgray;
     padding: 2%;
-    margin-top: 5%;
+    margin-top: 3%;
+    float: left;
+    margin-left: 10%;
 }
 
 .buttons-box input {
@@ -26,34 +29,41 @@ body {
 #convert-to-pixels {
     display:block;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 #convert-to-angle {
     display:block;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .footer {
-    margin-top: 5%;
+    clear: both;
+    margin: 0 auto;
     line-height: 3px;
+    overflow: hidden;
+    margin-top: 32%;
+    padding-bottom: 10%;
 }
 
 .footer a{
-    color: grey;
+    color: black;
 }
 
 .footer a:hover {
     color: lightgray;
 }
 
-body {
-    margin-left: 10%;
-    background: linear-gradient(-90deg, lightgray, grey);
-}
-
 body p {
     margin-right: 25%;
+    padding-left: 5%;
 }
 
+h1 {
+    padding-left: 5%;
+}
+
+.buttons-box p {
+    padding: 0;
+}
