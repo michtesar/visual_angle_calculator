@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons-box {
+    width: 25%;
+    background: lightgray;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.buttons-box input {
+    display: block;
+    margin-left: auto; 
+    margin-right: 1%;
+    margin-bottom: 10px;
+}
+
+.buttons-box label {
+    font-size: 13px;
+    color: grey;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#convert-to-pixels {
+    display:block;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#convert-to-angle {
+    display:block;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.footer {
+    margin-top: 5%;
+    line-height: 3px;
+}
+
+.footer a{
+    color: grey;
+}
+
+.footer a:hover {
+    color: lightgray;
+}
+
+body {
+    margin-left: 10%;
+    background: linear-gradient(-90deg, lightgray, grey);
+}
+
+body p {
+    margin-right: 25%;
+}
+
