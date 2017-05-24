@@ -18,28 +18,28 @@
             <h2>Convert pixels to visual angle</h2>
             <p>Given a size of stimulus in pixel it converts it into visual angle</p>
             <label>Screen height (cm)</label>
-            <input type="text" title="Screen height (cm)">
+            <input id="angle-h" type="text" title="Screen height (cm)">
             <label>Distance from screen (cm)</label>
-            <input type="text" title="Distance between screen and participant (cm)">
+            <input id="angle-d" type="text" title="Distance between screen and participant (cm)">
             <label>Vertical screen resolution (px)</label>
-            <input type="text" title="Vertical resolution of screen (px)">
+            <input id="angle-r" type="text" title="Vertical resolution of screen (px)">
             <label>Size of stimulus (px)</label>
-            <input type="text" title="Size of stimulus (px)"> 
-            <input id="convert-to-angle" type="button" value="Convert to visual angle">
+            <input id="angle-s" type="text" title="Size of stimulus (px)"> 
+            <input id="convert-to-angle" type="button" value="Convert to visual angle" onclick="convertToAngle()">
         </div>
 
         <div class="buttons-box">
             <h2>Convert visual degree to pixels</h2>
             <p>Given a visual angle it converts it into size in pixels</p>
             <label>Screen height (cm)</label>
-            <input type="text" title="Screen height (cm)">
+            <input id="pixel-h" type="text" title="Screen height (cm)">
             <label>Distance from screen (cm)</label>
-            <input type="text" title="Distance between screen and participant (cm)">
+            <input id="pixel-d" type="text" title="Distance between screen and participant (cm)">
             <label>Vertical screen resolution (px)</label>
-            <input type="text" title="Vertical resolution of screen (px)">
+            <input id="pixel-r" type="text" title="Vertical resolution of screen (px)">
             <label>Angle size of stimulus (°)</label>
-            <input type="text" title="Angle size of stimulus (°)"> 
-            <input id="convert-to-pixels" type="button" value="Convert to pixels">
+            <input id="pixel-s" type="text" title="Angle size of stimulus (°)"> 
+            <input id="convert-to-pixels" type="button" value="Convert to pixels" onclick="convertToPixel()">
         </div>
 
         <div class="footer">
