@@ -9,11 +9,14 @@
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-    
+
         <h1>Visual angle calculator</h1>
         <p>Visual angle is defined as angle between the straight lines of eye's lenses. It will define the size and lenght of stimulus on screen.</p>
         <p>This measurement is used to correct (standardize) the size of stimulus which is more relyable to measure it this way than actuall size for example in cm. If you present 100 px stimulus on screen it is 3°, but if you sit far from monitor it could be for example 2°. This is important that visual angle measurment reflects a disatnce from screen.</p>
-        
+        <p>
+          You can you a **off-line Java** version, <a href="Visual Angle Calculator.jar">here</a>.
+        </p>
+
         <div class="buttons-box">
             <h2>Convert pixels to visual angle</h2>
             <p>Given a size of stimulus in pixel it converts it into visual angle</p>
@@ -24,7 +27,7 @@
             <label>Vertical screen resolution (px)</label>
             <input id="angle-r" type="text" title="Vertical resolution of screen (px)">
             <label>Size of stimulus (px)</label>
-            <input id="angle-s" type="text" title="Size of stimulus (px)"> 
+            <input id="angle-s" type="text" title="Size of stimulus (px)">
             <input id="convert-to-angle" type="button" value="Convert to visual angle" onclick="convertToAngle()">
         </div>
 
@@ -38,7 +41,7 @@
             <label>Vertical screen resolution (px)</label>
             <input id="pixel-r" type="text" title="Vertical resolution of screen (px)">
             <label>Angle size of stimulus (°)</label>
-            <input id="pixel-s" type="text" title="Angle size of stimulus (°)"> 
+            <input id="pixel-s" type="text" title="Angle size of stimulus (°)">
             <input id="convert-to-pixels" type="button" value="Convert to pixels" onclick="convertToPixel()">
         </div>
 
