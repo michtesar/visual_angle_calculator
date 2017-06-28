@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VisualAngleConverter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/VisualAngleConverter_jar</output-path>
+    <root id="archive" name="VisualAngleConverter.jar">
+      <element id="module-output" name="VisualAngleConverter" />
+    </root>
+  </artifact>
+</component>
